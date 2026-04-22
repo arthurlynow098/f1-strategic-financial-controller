@@ -1,7 +1,7 @@
 # F1 Strategic Financial Controller (2026 Season e Regulations)
 
 ## Contexto do Projeto
-Este repositório contém o projeto final desenvolvido para a conclusão do curso **Prompt Engineering para IA Generativa**. O objetivo central foi utilizar Modelos de Linguagem de Grande Escala (LLMs), através da plataforma **IBM Cognitive Class**, para simular a gestão estratégica e financeira de uma equipe de Fórmula 1 sob o novo regulamento técnico e financeiro de 2026.
+Este repositório contém o projeto final desenvolvido para a conclusão do curso **Prompt Engineering For Everyone** e para mostrar habilidades reaproveitadas do curso **The Art Of Prompt Engineering**. O objetivo central foi utilizar Modelos de Linguagem de Grande Escala (LLMs), através da plataforma **IBM Cognitive Class**, para simular a gestão estratégica e financeira de uma equipe de Fórmula 1 sob o novo regulamento técnico e financeiro de 2026.
 
 O desafio consistiu em projetar um fluxo de trabalho que garantisse precisão matemática e visão crítica, respeitando o limite de teto de gastos da FIA, utilizando técnicas avançadas de engenharia de prompt para guiar a inteligência artificial.
 
@@ -34,7 +34,7 @@ Implementação de um framework de agentes virtuais onde uma instância da IA at
 Este projeto demonstra como a Engenharia de Prompt transforma modelos de linguagem em ferramentas de consultoria de alta precisão. Através da orquestração de diferentes técnicas, foi possível criar um plano de negócios de Fórmula 1 que é tecnicamente robusto, financeiramente viável e estrategicamente defensável.
 
 
-*Projeto realizado para certificação no curso de Prompt Engineering para IA Generativa.*
+*Projeto realizado para mostrar as habilidades aprendidas nos cursos 'The Art Of Prompt Engineering' e 'Prompt Engineering For Everyone'.*
 
 <p align="center">
   <img src="docs/The-Art-Of-Prompt-Engineering.jpeg" width="400">
