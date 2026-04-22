@@ -36,4 +36,5 @@ Este projeto demonstra como a Engenharia de Prompt transforma modelos de linguag
 
 *Projeto realizado para certificação no curso de Prompt Engineering para IA Generativa.*
 ![Certificado de Conclusão](The-Art-Of-Prompt-Engineering.jpeg)
+![Certificado de Conclusão](Prompt-Engineering-For-Everyone.jpeg)
 
