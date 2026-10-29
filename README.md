@@ -1,3 +1,9 @@
+<p align="center"><img src="https://raw.githubusercontent.com/arthurlynow098/arthurlynow098/main/assets/ars-codex-banner.png" alt="Arthur Mendes Entsev — gravura alquímica minimalista" width="100%"></p>
+
+<p align="center"><sub>☉ &nbsp; ARS CODEX &nbsp; · &nbsp; f1-strategic-financial-controller &nbsp; ☽</sub></p>
+
+---
+
 # F1 Strategic Financial Controller (2026 Season e Regulations)
 
 ## Contexto do Projeto
@@ -41,3 +47,6 @@ Este projeto demonstra como a Engenharia de Prompt transforma modelos de linguag
   <img src="docs/Prompt-Engineering-For-Everyone.jpeg" width="400">
 </p>
 
+---
+
+<p align="center"><sub>☿ &nbsp; Estudo · construção · evolução &nbsp; ☿</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a></p>
