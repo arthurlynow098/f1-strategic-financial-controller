@@ -1,22 +1,24 @@
 <p align="center">
-  <img src="assets/banner.png" alt="F1 Strategic Financial Controller" width="100%">
+  <img src="assets/project-animal.png" alt="Emblema de f1-strategic-financial-controller" width="144" height="144">
 </p>
+
+<h1 align="center">f1-strategic-financial-controller</h1>
+
+<p align="center">Estudo de engenharia de prompts para simular orçamento, cenários e análise de riscos de uma equipe de F1.</p>
 
 <p align="center">
-  Simulação de controladoria estratégica e alocação de teto orçamentário da Fórmula 1 (temporada 2026) estruturada com Engenharia de Prompt avançada.
+  <img src="https://img.shields.io/badge/Prompts-C52E36?style=flat-square" alt="Prompts">
+  <img src="https://img.shields.io/badge/LLMs-24272E?style=flat-square" alt="LLMs">
+  <img src="https://img.shields.io/badge/F%C3%B3rmula%201-24272E?style=flat-square" alt="Fórmula 1">
 </p>
 
-<p align="center">
-  <img alt="Prompt Engineering" src="https://img.shields.io/badge/IA-Prompt_Engineering-C52E36?style=for-the-badge">
-  <img alt="IBM" src="https://img.shields.io/badge/Certifica%C3%A7%C3%A3o-IBM_Cognitive_Class-11120F?style=for-the-badge">
-  <img alt="F1 2026" src="https://img.shields.io/badge/F1-Cost_Cap_2026-18181B?style=for-the-badge">
-</p>
+<p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#prompts">Prompts</a> &nbsp;·&nbsp; <a href="#como-explorar">Como explorar</a></p>
 
-## Sobre o projeto
+---
 
-Sob o novo regulamento técnico e financeiro de **2026 da FIA**, uma equipe de Fórmula 1 precisa equilibrar investimentos em aerodinâmica ativa, unidades de potência híbridas, simuladores CFD e logística intercontinental sem ultrapassar o teto de gastos (*Cost Cap*) de **US\$ 145 milhões**.
+## Visão geral
 
-Este projeto aplica frameworks estruturados de **Engenharia de Prompt** em Grandes Modelos de Linguagem (LLMs) para construir um controlador financeiro e estratégico de alta precisão. Em vez de aceitar respostas genéricas, a arquitetura de prompts força o modelo a coletar restrições reais, demonstrar cada cálculo passo a passo, comparar cenários concorrentes e auditar suas próprias recomendações.
+O estudo organiza prompts para levantar requisitos, comparar alternativas de investimento e revisar riscos em uma simulação financeira de Fórmula 1. Os valores usados nos exercícios são premissas do cenário documentado.
 
 ## Principais metodologias aplicadas
 
@@ -27,30 +29,27 @@ Este projeto aplica frameworks estruturados de **Engenharia de Prompt** em Grand
 | **Tree-of-Thought (ToT)** | Explora três ramos estratégicos diante de problemas de arrasto aerodinâmico (chassi, software CFD ou túnel de vento) e seleciona o maior ROI. |
 | **Critical Analysis Expert (CAE)** | Instancia um agente auditor ("advogado do diabo") que identifica riscos ocultos de inflação logística e cria reserva de contingência de US\$ 4M. |
 
-## Tecnologias e frameworks
+## Prompts
 
-<p>
-  <img alt="LLMs" src="https://img.shields.io/badge/Large_Language_Models-C52E36?style=flat-square">
-  <img alt="Chain of Thought" src="https://img.shields.io/badge/Chain--of--Thought-11120F?style=flat-square">
-  <img alt="Tree of Thought" src="https://img.shields.io/badge/Tree--of--Thought-C52E36?style=flat-square">
-  <img alt="IBM Watsonx" src="https://img.shields.io/badge/IBM_Cognitive_Class-11120F?style=flat-square">
-  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-C52E36?style=flat-square&logo=markdown&logoColor=white">
-</p>
+| Arquivo | Tags | Aplicação |
+|---|---|---|
+| [sistema_persona.md](docs/prompts/sistema_persona.md) | `Persona` `Entrevista` | Definição do papel e coleta de requisitos. |
+| [cot_raciocinio.md](docs/prompts/cot_raciocinio.md) | `CoT` `ToT` `Cenários` | Organização dos cálculos e comparação de alternativas. |
+| [critica_cae.md](docs/prompts/critica_cae.md) | `CAE` `Riscos` `Revisão` | Análise crítica das propostas e contingências. |
 
-- **Persona & Interview Pattern** (docs/prompts/sistema_persona.md) para levantamento estruturado de requisitos;
-- **Raciocínio CoT e ToT** (docs/prompts/cot_raciocinio.md) para consistência matemática e tomada de decisão multicritério;
-- **Auditoria Crítica CAE** (docs/prompts/critica_cae.md) para mitigação de riscos regulatórios junto à FIA.
+<details>
+<summary>Arquitetura do fluxo decisório</summary>
 
-## Arquitetura do fluxo decisório
-
-`mermaid
+```mermaid
 flowchart LR
-    A[Sistema Persona · CFO F1] --> B[Entrevista de Requisitos]
-    B --> C[Chain-of-Thought · Orçamento P&D]
-    C --> D[Tree-of-Thought · Cenários Técnicos]
-    D --> E[Agente CAE · Auditoria de Risco]
-    E --> F[Relatório Estratégico 2026]
-`
+    A["Sistema Persona · CFO F1"] --> B["Entrevista de Requisitos"]
+    B --> C["Chain-of-Thought · Orçamento P&D"]
+    C --> D["Tree-of-Thought · Cenários Técnicos"]
+    D --> E["Agente CAE · Auditoria de Risco"]
+    E --> F["Relatório Estratégico 2026"]
+```
+
+</details>
 
 ## Certificações
 
@@ -59,13 +58,13 @@ flowchart LR
   <img src="docs/Prompt-Engineering-For-Everyone.jpeg" width="48%" alt="Prompt Engineering For Everyone">
 </p>
 
-## Estrutura do repositório
+<details>
+<summary>Estrutura do repositório</summary>
 
-`	ext
+```text
 f1-strategic-financial-controller/
 ├── assets/
-│   ├── banner.png                                  Banner principal do projeto
-│   └── project-animal.png                          Símbolo do guepardo
+│   └── project-animal.png          Emblema do projeto
 ├── docs/
 │   ├── prompts/
 │   │   ├── sistema_persona.md                      Configuração da Persona CFO e Interview Pattern
@@ -75,7 +74,9 @@ f1-strategic-financial-controller/
 │   ├── Prompt-Engineering-For-Everyone.jpeg        Certificado IBM
 │   └── The-Art-Of-Prompt-Engineering.jpeg          Certificado IBM
 └── README.md
-`
+```
+
+</details>
 
 ## Como explorar
 
@@ -84,4 +85,8 @@ f1-strategic-financial-controller/
 
 ---
 
-<p align="center"><sub>Estudo · construção · evolução</sub><br><a href="https://github.com/arthurlynow098">Perfil</a> · <a href="https://arthurentsev.vercel.app/">Portfólio</a> · <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a></p>
+<p align="center">
+  <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
+  <a href="https://arthurentsev.vercel.app/">Portfólio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/entsevarthur/">LinkedIn</a>
+</p>
