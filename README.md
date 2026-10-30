@@ -1,37 +1,33 @@
 <p align="center">
-  <img src="assets/banner-v2.png" alt="f1-strategic-financial-controller" width="100%">
+  <img src="assets/identity/banner.png" alt="f1-strategic-financial-controller" width="100%">
 </p>
 
 <p align="center">Estudo de engenharia de prompts para simular orçamento, cenários e análise de riscos de uma equipe de F1.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Prompts · LLMs · Fórmula 1" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#prompts">Prompts</a> &nbsp;·&nbsp; <a href="#como-explorar">Como explorar</a></p>
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <a id="explore-o-projeto"></a>
 
-![Explore o projeto](assets/docs/section-01.svg)
+## Por onde começar
 
-![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-<table width="100%">
-<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
-<tr><td><strong>Requisitos</strong></td><td>Papel da IA e perguntas sobre o cenário.</td><td><a href="docs/prompts/sistema_persona.md">Abrir requisitos →</a></td></tr>
-<tr><td><strong>Cenários</strong></td><td>Prompts para organizar cálculos e alternativas.</td><td><a href="docs/prompts/cot_raciocinio.md">Abrir cenários →</a></td></tr>
-<tr><td><strong>Relatório</strong></td><td>Resultado documentado do estudo.</td><td><a href="docs/relatorio_estrategico_2026.md">Abrir relatório →</a></td></tr>
-</table>
+- **[Requisitos](docs/prompts/sistema_persona.md)** — Papel da IA e perguntas sobre o cenário.
+- **[Cenários](docs/prompts/cot_raciocinio.md)** — Prompts para organizar cálculos e alternativas.
+- **[Relatório](docs/relatorio_estrategico_2026.md)** — Resultado documentado do estudo.
+
 
 <a id="visão-geral"></a>
 
-![Visão geral](assets/docs/section-02.svg)
+## Visão geral
 
 O estudo organiza prompts para levantar requisitos, comparar alternativas de investimento e revisar riscos em uma simulação financeira de Fórmula 1. Os valores usados nos exercícios são premissas do cenário documentado.
 
 <a id="principais-metodologias-aplicadas"></a>
 
-![Principais metodologias aplicadas](assets/docs/section-03.svg)
+## Principais metodologias aplicadas
 
 | Metodologia | Como funciona no projeto |
 |---|---|
@@ -42,7 +38,7 @@ O estudo organiza prompts para levantar requisitos, comparar alternativas de inv
 
 <a id="prompts"></a>
 
-![Prompts](assets/docs/section-04.svg)
+## Prompts
 
 | Arquivo | Tags | Aplicação |
 |---|---|---|
@@ -66,7 +62,7 @@ flowchart LR
 
 <a id="certificações"></a>
 
-![Certificações](assets/docs/section-05.svg)
+## Certificações
 
 <p align="center">
   <img src="docs/The-Art-Of-Prompt-Engineering.jpeg" width="48%" alt="The Art Of Prompt Engineering">
@@ -79,7 +75,7 @@ flowchart LR
 ```text
 f1-strategic-financial-controller/
 ├── assets/
-│   └── banner-v2.png               Banner do projeto
+│   └── identity/banner.png               Banner do projeto
 ├── docs/
 │   ├── prompts/
 │   │   ├── sistema_persona.md                      Configuração da Persona CFO e Interview Pattern
@@ -95,12 +91,12 @@ f1-strategic-financial-controller/
 
 <a id="como-explorar"></a>
 
-![Como explorar](assets/docs/section-06.svg)
+## Como explorar
 
 1. Leia os prompts modulares na pasta [docs/prompts/](docs/prompts) na ordem: sistema_persona.md → cot_raciocinio.md → critica_cae.md.
 2. Consulte o documento final consolidado em [docs/relatorio_estrategico_2026.md](docs/relatorio_estrategico_2026.md) para ver o cronograma, a distribuição do teto orçamentário e os indicadores de performance (KPIs).
 
----
+<p align="center"><img src="assets/identity/divider.svg" alt="" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/arthurlynow098">GitHub</a> &nbsp;·&nbsp;
