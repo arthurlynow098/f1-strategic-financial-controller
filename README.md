@@ -4,21 +4,33 @@
 
 <p align="center">Estudo de engenharia de prompts para simular orçamento, cenários e análise de riscos de uma equipe de F1.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Prompts-C52E36?style=flat-square" alt="Prompts">
-  <img src="https://img.shields.io/badge/LLMs-24272E?style=flat-square" alt="LLMs">
-  <img src="https://img.shields.io/badge/F%C3%B3rmula%201-24272E?style=flat-square" alt="Fórmula 1">
-</p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Prompts · LLMs · Fórmula 1" width="72%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#prompts">Prompts</a> &nbsp;·&nbsp; <a href="#como-explorar">Como explorar</a></p>
 
 ---
 
-## Visão geral
+<a id="explore-o-projeto"></a>
+
+![Explore o projeto](assets/docs/section-01.svg)
+
+![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
+
+| Área | O que você encontra | Acesso direto |
+|---|---|---|
+| **Requisitos** | Papel da IA e perguntas sobre o cenário. | [Abrir requisitos →](docs/prompts/sistema_persona.md) |
+| **Cenários** | Prompts para organizar cálculos e alternativas. | [Abrir cenários →](docs/prompts/cot_raciocinio.md) |
+| **Relatório** | Resultado documentado do estudo. | [Abrir relatório →](docs/relatorio_estrategico_2026.md) |
+
+<a id="visão-geral"></a>
+
+![Visão geral](assets/docs/section-02.svg)
 
 O estudo organiza prompts para levantar requisitos, comparar alternativas de investimento e revisar riscos em uma simulação financeira de Fórmula 1. Os valores usados nos exercícios são premissas do cenário documentado.
 
-## Principais metodologias aplicadas
+<a id="principais-metodologias-aplicadas"></a>
+
+![Principais metodologias aplicadas](assets/docs/section-03.svg)
 
 | Metodologia | Como funciona no projeto |
 |---|---|
@@ -27,7 +39,9 @@ O estudo organiza prompts para levantar requisitos, comparar alternativas de inv
 | **Tree-of-Thought (ToT)** | Explora três ramos estratégicos diante de problemas de arrasto aerodinâmico (chassi, software CFD ou túnel de vento) e seleciona o maior ROI. |
 | **Critical Analysis Expert (CAE)** | Instancia um agente auditor ("advogado do diabo") que identifica riscos ocultos de inflação logística e cria reserva de contingência de US\$ 4M. |
 
-## Prompts
+<a id="prompts"></a>
+
+![Prompts](assets/docs/section-04.svg)
 
 | Arquivo | Tags | Aplicação |
 |---|---|---|
@@ -49,7 +63,9 @@ flowchart LR
 
 </details>
 
-## Certificações
+<a id="certificações"></a>
+
+![Certificações](assets/docs/section-05.svg)
 
 <p align="center">
   <img src="docs/The-Art-Of-Prompt-Engineering.jpeg" width="48%" alt="The Art Of Prompt Engineering">
@@ -62,7 +78,7 @@ flowchart LR
 ```text
 f1-strategic-financial-controller/
 ├── assets/
-│   └── project-animal.png          Emblema do projeto
+│   └── banner-v2.png               Banner do projeto
 ├── docs/
 │   ├── prompts/
 │   │   ├── sistema_persona.md                      Configuração da Persona CFO e Interview Pattern
@@ -76,7 +92,9 @@ f1-strategic-financial-controller/
 
 </details>
 
-## Como explorar
+<a id="como-explorar"></a>
+
+![Como explorar](assets/docs/section-06.svg)
 
 1. Leia os prompts modulares na pasta [docs/prompts/](docs/prompts) na ordem: sistema_persona.md → cot_raciocinio.md → critica_cae.md.
 2. Consulte o documento final consolidado em [docs/relatorio_estrategico_2026.md](docs/relatorio_estrategico_2026.md) para ver o cronograma, a distribuição do teto orçamentário e os indicadores de performance (KPIs).
