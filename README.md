@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/identity/banner.png" alt="f1-strategic-financial-controller" width="100%">
-</p>
+<p align="center"><img src="assets/f1-strategic-financial-controller-banner.jpg" width="100%" alt="f1-strategic-financial-controller"></p>
 
 <p align="center">Estudo de engenharia de prompts para simular orçamento, cenários e análise de riscos de uma equipe de F1.</p>
 
