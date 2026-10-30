@@ -4,7 +4,7 @@
 
 <p align="center">Estudo de engenharia de prompts para simular orçamento, cenários e análise de riscos de uma equipe de F1.</p>
 
-<p align="center"><img src="assets/docs/tags.svg" alt="Prompts · LLMs · Fórmula 1" width="72%"></p>
+<p align="center"><img src="assets/docs/tags.svg" alt="Prompts · LLMs · Fórmula 1" width="100%"></p>
 
 <p align="center"><a href="#visão-geral">Visão geral</a> &nbsp;·&nbsp; <a href="#prompts">Prompts</a> &nbsp;·&nbsp; <a href="#como-explorar">Como explorar</a></p>
 
@@ -16,11 +16,12 @@
 
 ![Mapa visual dos arquivos e responsabilidades](assets/docs/map.svg)
 
-| Área | O que você encontra | Acesso direto |
-|---|---|---|
-| **Requisitos** | Papel da IA e perguntas sobre o cenário. | [Abrir requisitos →](docs/prompts/sistema_persona.md) |
-| **Cenários** | Prompts para organizar cálculos e alternativas. | [Abrir cenários →](docs/prompts/cot_raciocinio.md) |
-| **Relatório** | Resultado documentado do estudo. | [Abrir relatório →](docs/relatorio_estrategico_2026.md) |
+<table width="100%">
+<tr><th align="left">Área</th><th align="left">O que você encontra</th><th align="left">Acesso direto</th></tr>
+<tr><td><strong>Requisitos</strong></td><td>Papel da IA e perguntas sobre o cenário.</td><td><a href="docs/prompts/sistema_persona.md">Abrir requisitos →</a></td></tr>
+<tr><td><strong>Cenários</strong></td><td>Prompts para organizar cálculos e alternativas.</td><td><a href="docs/prompts/cot_raciocinio.md">Abrir cenários →</a></td></tr>
+<tr><td><strong>Relatório</strong></td><td>Resultado documentado do estudo.</td><td><a href="docs/relatorio_estrategico_2026.md">Abrir relatório →</a></td></tr>
+</table>
 
 <a id="visão-geral"></a>
 
