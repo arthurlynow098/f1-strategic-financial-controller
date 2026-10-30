@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/project-animal.png" alt="Emblema de f1-strategic-financial-controller" width="144" height="144">
+  <img src="assets/banner-v2.png" alt="f1-strategic-financial-controller" width="100%">
 </p>
-
-<h1 align="center">f1-strategic-financial-controller</h1>
 
 <p align="center">Estudo de engenharia de prompts para simular orçamento, cenários e análise de riscos de uma equipe de F1.</p>
 
